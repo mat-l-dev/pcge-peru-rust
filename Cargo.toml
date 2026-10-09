@@ -1,0 +1,16 @@
+[package]
+name = "pcge-peru"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Catálogos PCGE de Perú con ediciones explícitas, jerarquía y trazabilidad"
+license = "Apache-2.0"
+repository = "https://github.com/mat-l-dev/pcge-peru-rust"
+readme = "README.md"
+keywords = ["pcge", "peru", "accounting", "catalog"]
+categories = ["data-structures"]
+include = ["src/**", "examples/**", "data/**", "scripts/*.py", "tests/*.rs", "tests/*.py", "tests/*.json", "licenses/**", "README.md", "CHANGELOG.md", "NOTICE", "LICENSE", "Cargo.toml", "Cargo.lock"]
+
+[lib]
+name = "pcge_peru"
+path = "src/lib.rs"
